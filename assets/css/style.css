@@ -1,0 +1,75 @@
+body {
+    background-image: url(file:///C:/Users/thegh/Coding-Homework/Assignment1/Basic-Portfolio/assets/images/white-waves.png);
+    margin: 0 auto 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.TopBar {
+    background-color: white;
+    border-bottom: 2px solid lightgrey;
+}
+
+.TopBarContent {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    float: left;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #4aaaa5;
+    padding: 25px;
+    margin: 0;
+}
+
+.TopBarLinks {
+
+}
+
+.AboutLink {
+    float: right;
+    padding:25px;
+    margin: auto;
+}
+
+.PortfolioLink {
+    float: right;
+    padding: 25px;
+    margin: auto;
+    vertical-align: center;
+}
+
+.ContactLink {
+    float: right;
+    padding: 25px;
+    margin: auto;
+}
+
+.AboutMeContent {
+    width: 960px;
+    padding-top: 20px;
+    margin: auto;
+}
+
+.AboutMePic {
+    float: left;
+    width: 200px;
+}
+
+p {
+    float: left;
+}
+
+footer {
+    position: absolute;
+    bottom: 0px;
+}
