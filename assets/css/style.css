@@ -124,6 +124,11 @@ a {
     text-decoration: none;
 }
 
+.Instagram {
+    color: #4aaaa5;
+    font-weight: bold;
+}
+
 input[type=text], select, textarea {
     width: 100%;
     padding: 12px;
@@ -145,7 +150,7 @@ input[type=submit] {
 }
   
 input[type=submit]:hover {
-    background-color: #455aa0;
+    background-color: #01e1ff;
 }
 
 .ContactBanner {
@@ -169,7 +174,6 @@ input[type=submit]:hover {
 
 .column {
     padding: 10px;
-    width: 33.33%;
     position: relative;
     display: inline-block;
 }
@@ -179,4 +183,19 @@ input[type=submit]:hover {
     position: absolute;
     z-index: 99;       
     text-align: center;
+}
+
+.text {
+    float: left;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #4aaaa5;
+    padding: 25px;
+    margin: 0;
+    width: 250px;
+    font-size: 20px;
+}
+
+a:hover {
+    color: #01e1ff;
 }
