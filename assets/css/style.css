@@ -62,7 +62,7 @@ h1 {
     width: 960px;
     border: 1px solid #dddddd;
     background-color: white;
-    margin: 30px auto auto auto;
+    margin: 30px auto 90px auto;
     padding-bottom: 20px;
 }
 
@@ -107,6 +107,7 @@ footer {
     color: lightgrey;
     height: 50px;
     border-top: 8px solid #4aaaa5;
+    z-index: 999;
 }
 
 .FooterText {
@@ -114,6 +115,7 @@ footer {
     width: 100%;
     bottom: 0;
     text-align: center;
+    z-index: 9999;
 }
 
 a {
@@ -157,4 +159,24 @@ input[type=submit]:hover {
     border-radius: 5px;
     background-color: white;
     padding: 30px;
+}
+
+.PortfolioImage {
+    width: 300px;
+    height: 220px;
+    margin-bottom: 20px;
+}
+
+.column {
+    padding: 10px;
+    width: 33.33%;
+    position: relative;
+    display: inline-block;
+}
+
+.column .text {      
+    top: 50%;
+    position: absolute;
+    z-index: 99;       
+    text-align: center;
 }
